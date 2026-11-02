@@ -1,0 +1,34 @@
+PITCH ROYALE v57 — REFERENCE BOARD PASS
+
+VISUAL / UX
+- Reworked the UI toward the approved emerald/gold reference board.
+- Increased weight/size for key text, player names, legends and table content.
+- Added richer green product headers and less empty gray visual space.
+- Added collapsible desktop sidebar and immersive no-sidebar mode for ceremonies/replays.
+- Rebuilt Tournament Overview into standings + upcoming fixture board layout.
+- Rebuilt live match controls with aligned badges, large score and per-side - / + scoring controls.
+- Improved New Tournament player chips and club assignment switch/card UI.
+- Made all player-profile tabs functional.
+- Reworked Music & Audio into a premium control panel.
+- Reworked Champion summary and separated trophy celebration from match replay.
+
+BEHAVIOR FIXES
+- Music mute/play now reflects and controls the real TM2 soundtrack.
+- Top-bar and Music & Audio sliders now control the real soundtrack volume.
+- Effects intensity has direct Off/Low/Medium/High/Full choices.
+- Lift Trophy no longer launches Match Replay first or repeats the Lift Trophy prompt.
+- Match Replay is now a separate overlay/action.
+- Player profile now receives the real v55 allCareer() data through a stable PRCareer bridge.
+- Player-name matching is normalized for case/accidental surrounding spaces.
+- Side-specific minus scoring can only undo the latest goal from that same side.
+
+PRESERVED
+- Stable v55 tournament/game engine and save format.
+- Existing Supabase account/cloud layer.
+- Tournament creation, balancing, rotating clubs, standings, stats/title race, live scoring, undo/full time, Finals, career/HOF, TV, Penalty Wheel, backup/restore and existing effects hooks.
+- Club badges remain out of standings.
+
+DEPLOYMENT
+- No GitHub push.
+- No Netlify deployment.
+- Local review only.

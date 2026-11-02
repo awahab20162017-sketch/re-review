@@ -1,0 +1,1 @@
+addEventListener("error",function(e){var b=document.getElementById("boot");if(b)b.innerHTML="<b>Something went wrong while starting</b><p class=\"mu sm\">"+String(e.message||e).replace(/</g,"&lt;")+"</p><p class=\"mu sm\">Try Chrome or Safari. If it keeps happening, include this error message when reporting the issue.</p>"})
